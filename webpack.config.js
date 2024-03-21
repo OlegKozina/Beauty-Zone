@@ -61,10 +61,7 @@ module.exports = {
       template: "src/index.html",
     }),
     new CopyWebpackPlugin({
-      patterns: [
-        { from: "src/html_Images", to: "images" },
-        // Додайте інші шляхи, якщо потрібно копіювати інші файли
-      ],
+      patterns: [{ from: "src/html_Images", to: "images" }],
     }),
   ],
 };

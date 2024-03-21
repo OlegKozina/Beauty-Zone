@@ -5,7 +5,17 @@
   align-items: left;
   justify-content: center;
   height: 424px;
-
+  background: linear-gradient(
+      0deg,
+      #ffffff 1.62%,
+      rgba(255, 255, 255, 0.850898) 5.31%,
+      rgba(255, 255, 255, 0.193204) 58.65%,
+      rgba(255, 255, 255, 0) 72.78%
+    ),
+    url("/src/html_images/hero-title_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   position: relative;
 
   @media screen and (min-width: $bp-tablet) {
