@@ -1,0 +1,12 @@
+{
+  "name": "beauty_zone",
+  "version": "1.0.0",
+  "description": "A site for a local clinic. Includes header, footer, main part and form section",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
